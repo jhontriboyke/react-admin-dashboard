@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 2.5;
+    padding-block: 20px;
+    /* background-color: teal; */
+}
+
+@media screen and (min-width: 1024px) {
+    .content {
+        flex: 4;
+        /* background-color: gold; */
+    }
+}

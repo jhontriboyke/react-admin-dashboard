@@ -1,0 +1,67 @@
+.user-list {
+    /* height: 100%; */
+    padding-inline: 20px;
+}
+
+.user-list-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-list-title a {
+    text-decoration: none;
+    color: white;
+    background-color: #487b7e;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.user-list-title a:hover {
+    background-color: #316365;
+}
+
+.user-list h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.ul-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ul-user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.ul-edit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #84abad;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.2s;
+}
+
+.ul-edit:hover {
+    background-color: #426f7c;
+}
+
+.ul-delete {
+    cursor: pointer;
+    color: #7a1135;
+    padding: 2px;
+}
+
+.ul-delete:hover {
+    background-color: #ffac9b;
+    border-radius: 50%;
+}

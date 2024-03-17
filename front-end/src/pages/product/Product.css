@@ -1,0 +1,162 @@
+.product {
+    padding-inline: 20px;
+}
+
+.p-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-add-button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #84abad;
+    transition: background-color 0.1s;
+    color: white;
+    cursor: pointer;
+}
+
+.p-top {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.p-top > * {
+    flex: 1;
+}
+
+.pt-right {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: box-shadow 0.25s;
+}
+
+.pt-right:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px;
+}
+
+.product-info-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pi-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.pi-name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.product-info-bottom {
+    margin-top: 10px;
+}
+
+.pi-item {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pi-key {
+    font-weight: 500;
+}
+
+.pi-value {
+    font-weight: 300;
+}
+
+.p-bottom {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: box-shadow 0.25s;
+}
+
+.p-bottom:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px;
+}
+
+.product-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-form-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form-left > label {
+    color: gray;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.product-form-left > label:not(:first-child) {
+    margin-top: 30px;
+}
+
+.product-form-left > input {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: transparent;
+}
+
+.product-form-left > select {
+    padding: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.product-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-upload > label {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.product-upload-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product-button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #84abad;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.p-add-button:hover,
+.product-button:hover {
+    background-color: #426f7c;
+}

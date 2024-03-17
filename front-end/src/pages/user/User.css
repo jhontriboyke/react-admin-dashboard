@@ -1,0 +1,186 @@
+.user {
+    padding-inline: 20px;
+}
+
+.user-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-add-button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #84abad;
+    transition: background-color 0.1s;
+    color: white;
+    cursor: pointer;
+}
+
+.user-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.user-show,
+.user-update {
+    padding: 20px 40px;
+    padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: box-shadow 0.25s;
+}
+
+.user-show:hover,
+.user-update:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px;
+}
+
+.user-show {
+    flex: 1;
+}
+
+.user-update {
+    flex: 2;
+}
+
+/* us = user-show */
+.us-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.us-top-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.us-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.us-username {
+    font-weight: bold;
+}
+
+.us-user-title {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.us-bottom {
+    margin-top: 20px;
+}
+
+.us-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.us-info {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    color: #444;
+    gap: 8px;
+}
+
+.us-icon {
+    font-size: 15px !important;
+}
+
+.uu-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.uu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.uu-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.uu-item > label {
+    font-size: 14px;
+}
+
+.uu-input {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.uu-input:focus-visible {
+    outline: transparent;
+}
+
+.uu-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.uu-update-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.uu-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uu-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.uu-upload > label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.uu-upload > label .file-icon {
+    font-size: 20px !important;
+}
+
+.uu-upload > label > span {
+    font-size: 13px;
+}
+
+.uu-update-button {
+    border: none;
+    background-color: #84abad;
+    transition: background-color 0.2s;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user-add-button:hover,
+.uu-update-button:hover {
+    background-color: #426f7c;
+}

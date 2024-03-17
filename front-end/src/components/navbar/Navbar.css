@@ -1,0 +1,68 @@
+nav {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-wrapper {
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: teal;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+    color: #555;
+}
+
+.nav-icon-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-icon-container > * {
+    font-size: 50px;
+}
+
+.nav-icon-badge {
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: -2px;
+    right: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.avatar-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}

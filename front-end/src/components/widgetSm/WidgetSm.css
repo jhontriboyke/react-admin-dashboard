@@ -1,0 +1,66 @@
+.widget-sm {
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ws-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ws-list-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.ws-user {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+
+.ws-username {
+    font-weight: 600;
+}
+
+.ws-username.hidden,
+.ws-user-title.hidden {
+    background-color: lightgray;
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.ws-user-title {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.ws-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.ws-button {
+    width: 140px;
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.ws-icon {
+    font-size: 16px !important;
+}
